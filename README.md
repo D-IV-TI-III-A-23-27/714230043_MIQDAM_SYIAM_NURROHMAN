@@ -1,1 +1,6 @@
 # 714230043_MIQDAM_SYIAM_NURROHMAN
+
+
+1. TUGAS Visualisasi KNN :
+   https://d-iv-ti-iii-a-23-27.github.io/714230043_MIQDAM_SYIAM_NURROHMAN/
+3. 
