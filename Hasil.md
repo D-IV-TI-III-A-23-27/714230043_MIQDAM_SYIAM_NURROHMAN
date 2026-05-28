@@ -8,16 +8,16 @@
 
 | Ukuran Chunk | Overlap | Metode Chunking | Model Embedding | Dukungan Bahasa | Tipe Query Uji | Top-K | Filter Metadata | Hit Rate | Latensi | Ukuran Index DB | Catatan |
 |:---:|:---:|:---|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
-| 256 | 50 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk sangat kecil* |
-| 500 | 100 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk kecil* |
-| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk medium (baseline)* |
-| 2000 | 400 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk besar* |
-| 1000 | 0 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Overlap 0% (tanpa)* |
-| 1000 | 100 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.07s | 0.7 MB | *Overlap 10%* |
-| 1000 | 500 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.07s | 0.7 MB | *Overlap 50%* |
-| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 3 | Ya (DOI) | 20% | 0.06s | 0.7 MB | *Top-K kecil (3) — Banyak informasi terlewat* |
-| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 10 | Ya (DOI) | **100%** | 0.07s | 0.7 MB | *Top-K besar (10) — Semua query terjawab!* |
-| 500 | 100 | Hybrid | SPECTER (`allenai/specter`) | Hanya Inggris | Campuran (5 query) | 10 | Ya (DOI) | **100%** | 0.06s | 0.7 MB | *Chunk kecil + Top-K besar — Paling optimal* |
+| 256 | 50 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk sangat kecil* |
+| 500 | 100 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk kecil* |
+| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk medium (baseline)* |
+| 2000 | 400 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Chunk besar* |
+| 1000 | 0 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.06s | 0.7 MB | *Overlap 0% (tanpa)* |
+| 1000 | 100 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.07s | 0.7 MB | *Overlap 10%* |
+| 1000 | 500 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 5 | Ya (DOI) | 60% | 0.07s | 0.7 MB | *Overlap 50%* |
+| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 3 | Ya (DOI) | 20% | 0.06s | 0.7 MB | *Top-K kecil (3) — Banyak informasi terlewat* |
+| 1000 | 200 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 10 | Ya (DOI) | **100%** | 0.07s | 0.7 MB | *Top-K besar (10) — Semua query terjawab!* |
+| 500 | 100 | Hybrid | SPECTER (`allenai/specter`) | Campuran (EN + ID) | Campuran (5 query) | 10 | Ya (DOI) | **100%** | 0.06s | 0.7 MB | *Chunk kecil + Top-K besar — Paling optimal* |
 
 ---
 
