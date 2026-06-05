@@ -3,6 +3,9 @@
 **Paper Uji:** *A machine learning model for multi-class classification of quenched and partitioned steel microstructure type by the k-nearest neighbor algorithm*  
 **DOI:** `10.1016/j.commatsci.2023.112321`  
 **Model Embedding:** SPECTER (`allenai/specter`) — 768 dimensi, berbasis SciBERT yang di-fine-tune untuk embedding dokumen ilmiah
+**Apa itu SPECTER?
+***SPECTER = Scientific Paper Embeddings using Citation-informed TransformERs
+***SPECTER adalah model AI buatan AllenAI (institusi riset AI milik Paul Allen, pendiri Microsoft) yang khusus dirancang untuk memahami paper ilmiah.
 
 ## Hasil Benchmarking (10 Eksperimen)
 
