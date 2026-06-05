@@ -7,6 +7,7 @@
 **Apa itu SPECTER?**
 
 ***SPECTER = Scientific Paper Embeddings using Citation-informed TransformERs***
+
 ***SPECTER adalah model AI buatan AllenAI (institusi riset AI milik Paul Allen, pendiri Microsoft) yang khusus dirancang untuk memahami paper ilmiah.***
 
 ## Hasil Benchmarking (10 Eksperimen)
