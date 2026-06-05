@@ -1,4 +1,4 @@
-# 📊 Hasil Benchmarking PEDE — SPECTER Embedding
+# 📊 Hasil Benchmarking SPECTER Embedding
 
 **Paper Uji:** *A machine learning model for multi-class classification of quenched and partitioned steel microstructure type by the k-nearest neighbor algorithm*  
 **DOI:** `10.1016/j.commatsci.2023.112321`  
